@@ -1,18 +1,15 @@
-package com.example.myapplication.ui.notifications
+package com.example.myapplication.ui.forum
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.example.myapplication.databinding.FragmentNotificationsBinding
+import com.example.myapplication.databinding.FragmentForumBinding
 
-class NotificationsFragment : Fragment() {
+class ForumFragment : Fragment() {
 
-    private var _binding: FragmentNotificationsBinding? = null
-
-    // This property is only valid between onCreateView and
-    // onDestroyView.
+    private var _binding: FragmentForumBinding? = null
     private val binding get() = _binding!!
 
     override fun onCreateView(
@@ -21,7 +18,7 @@ class NotificationsFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
 
-        _binding = FragmentNotificationsBinding.inflate(inflater, container, false)
+        _binding = FragmentForumBinding.inflate(inflater, container, false)
         return binding.root
     }
 
