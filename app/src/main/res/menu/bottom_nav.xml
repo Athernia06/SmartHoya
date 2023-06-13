@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Home"
+        android:id="@+id/home"
+        android:icon="@drawable/baseline_home_24"/>
+    <item android:title="Forum"
+        android:id="@+id/forum"
+        android:icon="@drawable/baseline_forum_24"/>
+    <item android:title="Scan"
+        android:id="@+id/scan"
+        android:icon="@drawable/baseline_qr_code_scanner_24"/>
+    <item android:title="Riwayat"
+        android:id="@+id/riwayat"
+        android:icon="@drawable/baseline_history_24"/>
+    <item android:title="Profile"
+        android:id="@+id/profile"
+        android:icon="@drawable/baseline_person_24"/>
+</menu>
