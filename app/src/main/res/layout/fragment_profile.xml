@@ -25,7 +25,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Kim Minji"
-            android:textColor="@color/app_theme_light"
+            android:textColor="@color/green5"
             android:textSize="20dp"
             android:layout_marginTop="8dp"
             android:textStyle="bold"/>
@@ -33,7 +33,7 @@
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="@color/app_theme_light"
+            android:background="@color/green5"
             android:layout_marginTop="10dp"/>
 
     </LinearLayout>
@@ -55,7 +55,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="First Name"
+            android:text="Name"
             android:textStyle="bold"
             android:textColor="@color/black"
             android:textSize="18dp"
@@ -64,8 +64,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Kim"
-            android:layout_marginLeft="25dp"
+            android:text="Kim Minji"
+            android:layout_marginLeft="60dp"
             android:textSize="18dp"
             android:textColor="@color/black50"/>
 
@@ -96,7 +96,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Last Name"
+            android:text="Username"
             android:textStyle="bold"
             android:textColor="@color/black"
             android:textSize="18dp"
@@ -105,7 +105,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Minji"
+            android:text="Minjikim09"
             android:layout_marginLeft="25dp"
             android:textSize="18dp"
             android:textColor="@color/black50"/>
@@ -160,5 +160,39 @@
         android:layout_marginTop="10dp"
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="50dp"
+                android:background="@drawable/bg_btn"
+                android:text="Edit Profile"
+                android:gravity="center"
+                android:textColor="@color/green5"
+                android:textSize="18dp"
+                android:drawableLeft="@drawable/ic_edit"
+                android:paddingLeft="20dp"
+                android:layout_marginLeft="-10dp"/>
+
+            <TextView
+                android:layout_width="240dp"
+                android:layout_height="50dp"
+                android:background="@drawable/bg_btn"
+                android:text="Change Password"
+                android:gravity="center"
+                android:textColor="@color/green5"
+                android:textSize="18dp"
+                android:drawableLeft="@drawable/ic_lock"
+                android:paddingLeft="20dp"
+                android:layout_marginLeft="-10dp"
+                android:layout_marginTop="15dp"/>
+
+    </LinearLayout>
 
 </LinearLayout>

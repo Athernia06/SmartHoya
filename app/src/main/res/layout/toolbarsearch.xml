@@ -16,24 +16,13 @@
             android:layout_alignParentLeft="true"
             android:src="@drawable/ic_back" />
 
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="@integer/material_motion_duration_long_1"
-            android:gravity="center"
-            android:text="Profile"
-            android:textColor="@color/black"
-            android:textSize="16dp"
-            android:textStyle="bold" />
-
-        <TextView
+        <SearchView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentRight="true"
-            android:text="Logout"
-            android:textColor="@color/green5"
-            android:textSize="15dp"
-            android:textStyle="normal" />
+            android:layout_height="match_parent"
+            android:queryHint="Cari Tanaman Hoya"
+            android:iconifiedByDefault="false"
+            />
+
 
     </LinearLayout>
 
