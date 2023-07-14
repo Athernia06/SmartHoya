@@ -15,6 +15,7 @@
     <string name="btn_signup">Daftar</string>
     <string name="title_scan">Scan</string>
     <string name="title_history">History</string>
+    <string name="title_bookmark">Bookmark</string>
     <string name="image_description">This is image</string>
     <string name="label_trending_forum">Trending in Forum</string>
     <string name="view_all">View All</string>
