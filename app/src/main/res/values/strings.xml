@@ -21,6 +21,9 @@
     <string name="view_all">View All</string>
     <string name="label_plant_collection">Plant Photos</string>
     <string name="label_spread_map">Spread Map</string>
+    <string name="label_comment">Comment</string>
+    <string name="label_like">Like</string>
+    <string name="label_share">Share</string>
     <string name="app_title">iHoya</string>
     <string name="app_desc">Fungsi utama aplikasi ini adalah untuk membantu mengidentifikasi dan memberikan informasi terkait tanaman Hoya</string>
     <string name="sumatra">Sumatra</string>
