@@ -5,6 +5,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
+import com.example.myapplication.R
 import com.example.myapplication.databinding.FragmentHomeBinding
 
 class HomeFragment : Fragment() {
@@ -21,8 +23,25 @@ class HomeFragment : Fragment() {
         return binding.root
     }
 
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        initView()
+    }
+
     override fun onDestroyView() {
         super.onDestroyView()
         _binding = null
+    }
+
+    private fun initView() {
+        with(binding) {
+            cvSumatra.setOnClickListener {
+                navigateToHoyaSearchFragment()
+            }
+        }
+    }
+
+    private fun navigateToHoyaSearchFragment() {
+        findNavController().navigate(R.id.hoyaSearchFragment)
     }
 }

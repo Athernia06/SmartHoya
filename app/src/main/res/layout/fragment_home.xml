@@ -132,6 +132,7 @@
 
                 <androidx.cardview.widget.CardView
                     android:layout_width="70dp"
+                    android:id="@+id/cvSumatra"
                     android:layout_height="wrap_content"
                     android:layout_margin="8dp"
                     app:cardCornerRadius="10dp"

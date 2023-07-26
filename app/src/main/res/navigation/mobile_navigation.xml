@@ -34,4 +34,9 @@
         android:name="com.example.myapplication.ui.profile.ProfileFragment"
         android:label="@string/title_profile"
         tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/hoyaSearchFragment"
+        android:name="com.example.myapplication.ui.hoya_search.HoyaSearchFragment"
+        android:label="fragment_hoya_search"
+        tools:layout="@layout/fragment_hoya_search" />
 </navigation>

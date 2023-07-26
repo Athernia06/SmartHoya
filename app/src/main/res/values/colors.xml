@@ -63,4 +63,5 @@
     <color name="brown1">#F7E4D2</color>
     <color name="brown6">#786453</color>
     <color name="shimmer_color">#e4e4e4</color>
+    <color name="gray_search_bar">#777777</color>
 </resources>
