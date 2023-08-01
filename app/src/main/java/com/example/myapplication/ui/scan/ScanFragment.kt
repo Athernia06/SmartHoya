@@ -1,6 +1,8 @@
 package com.example.myapplication.ui.scan
 
 import android.os.Bundle
+import android.widget.Button;
+import android.widget.ImageView;
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
@@ -11,6 +13,9 @@ import com.example.myapplication.databinding.FragmentScanBinding
 
 
 class ScanFragment : Fragment() {
+
+    Button btnpicture;
+    ImageView imageView;
 
     private var _binding: FragmentScanBinding? = null
     private val binding get() = _binding!!

@@ -2,6 +2,7 @@
     <string name="app_name">My Application</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="btn_camera">Click to Open the Camera</string>
     <string name="title_activity_main">MainActivity</string>
     <string name="title_home">Home</string>
     <string name="title_forum">Forum</string>
@@ -11,7 +12,9 @@
     <string name="email">Email</string>
     <string name="password">Password</string>
     <string name="btn_login">Masuk</string>
+    <string name="btn_register">Daftar</string>
     <string name="offer_signup">Belum mempunyai akun?</string>
+    <string name="offer_login">Sudah mempunyai akun?</string>
     <string name="btn_signup">Daftar</string>
     <string name="title_scan">Scan</string>
     <string name="title_history">History</string>
@@ -35,4 +38,5 @@
     <string name="ntb">NTB</string>
     <string name="ntt">NTT</string>
     <string name="hoya_search_hint">Cari tanaman Hoya</string>
+    <string name="title_activity_register">activity_register</string>
 </resources>
