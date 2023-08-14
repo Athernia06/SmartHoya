@@ -8,8 +8,9 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.GridLayoutManager
 import com.example.myapplication.core.data.model.TanamanModel
 import com.example.myapplication.databinding.FragmentHoyaSearchPagerBinding
+import dagger.hilt.android.AndroidEntryPoint
 
-
+@AndroidEntryPoint
 class HoyaSearchPagerFragment : Fragment() {
     private var _binding: FragmentHoyaSearchPagerBinding? = null
     private val binding get() = _binding!!

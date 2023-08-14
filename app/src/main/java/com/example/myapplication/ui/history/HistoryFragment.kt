@@ -8,7 +8,9 @@ import android.view.ViewGroup
 import com.example.myapplication.R
 import com.example.myapplication.databinding.FragmentForumBinding
 import com.example.myapplication.databinding.FragmentHistoryBinding
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class HistoryFragment : Fragment() {
 
     private var _binding: FragmentHistoryBinding? = null

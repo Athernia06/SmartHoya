@@ -8,8 +8,9 @@ import android.view.ViewGroup
 import com.example.myapplication.R
 import com.example.myapplication.databinding.FragmentHomeBinding
 import com.example.myapplication.databinding.FragmentScanBinding
+import dagger.hilt.android.AndroidEntryPoint
 
-
+@AndroidEntryPoint
 class ScanFragment : Fragment() {
 
     private var _binding: FragmentScanBinding? = null
