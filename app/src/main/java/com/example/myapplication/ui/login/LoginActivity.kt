@@ -8,10 +8,9 @@ import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import com.example.myapplication.MainActivity
-import com.example.myapplication.databinding.ActivityLoginBinding
-import com.google.gson.Gson
-import com.google.gson.JsonObject
 import com.example.myapplication.common.Result
+import com.example.myapplication.databinding.ActivityLoginBinding
+import com.example.myapplication.ui.register.RegisterActivity
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -90,6 +89,9 @@ class LoginActivity : AppCompatActivity() {
                         password = edtPasswordLogin.text.toString(),
                     )
                 }
+            }
+            btnSignup.setOnClickListener {
+                startActivity(Intent(this@LoginActivity, RegisterActivity::class.java))
             }
         }
     }

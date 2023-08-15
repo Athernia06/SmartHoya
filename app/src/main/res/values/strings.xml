@@ -10,6 +10,9 @@
     <string name="title_app">Smart Hoya</string>
     <string name="title_welcome">Selamat Datang di \nSmartHoya</string>
     <string name="email">Email</string>
+    <string name="name">Name</string>
+    <string name="username">Username</string>
+    <string name="role">Role</string>
     <string name="password">Password</string>
     <string name="btn_login">Masuk</string>
     <string name="btn_register">Daftar</string>
