@@ -42,4 +42,10 @@
     <string name="ntt">NTT</string>
     <string name="hoya_search_hint">Cari tanaman Hoya</string>
     <string name="title_activity_register">activity_register</string>
+
+
+    <!--  Profile  -->
+    <string name="change_password">Change Password</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="logout">Log Out</string>
 </resources>
