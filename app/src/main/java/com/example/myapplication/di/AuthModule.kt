@@ -1,7 +1,7 @@
 package com.example.myapplication.di
 
 import com.example.myapplication.common.repository.AuthRepositoryImpl
-import com.example.myapplication.data.remote.network.auth.AuthApi
+import com.example.myapplication.data.remote.network.AuthApi
 import com.example.myapplication.data.remote.repository.AuthRepository
 import dagger.Module
 import dagger.Provides

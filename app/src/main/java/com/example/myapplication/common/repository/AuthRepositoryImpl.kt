@@ -1,7 +1,7 @@
 package com.example.myapplication.common.repository
 
 import com.example.myapplication.common.Result
-import com.example.myapplication.data.remote.network.auth.AuthApi
+import com.example.myapplication.data.remote.network.AuthApi
 import com.example.myapplication.data.remote.repository.AuthRepository
 import com.example.myapplication.data.remote.response.LoginResponse
 import com.example.myapplication.data.remote.response.RegisterResponse
