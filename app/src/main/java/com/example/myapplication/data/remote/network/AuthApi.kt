@@ -1,4 +1,4 @@
-package com.example.myapplication.data.remote.network.auth
+package com.example.myapplication.data.remote.network
 
 import com.example.myapplication.data.remote.response.LoginResponse
 import com.example.myapplication.data.remote.response.RegisterResponse
