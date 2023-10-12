@@ -1,5 +1,6 @@
 package com.example.myapplication.data.remote.network
 
+import com.example.myapplication.data.remote.response.ForumResponse
 import com.example.myapplication.data.remote.response.HoyaResponse
 import com.example.myapplication.data.remote.response.IslandResponse
 import retrofit2.http.GET
@@ -16,4 +17,7 @@ interface HoyaApi {
         @Header("Authorization") token: String,
         @Query("id_pulau") islandId: String
     ): List<HoyaResponse>
+
+    @GET("forums")
+    suspend fun listForum(@Header("Authorization") token: String): List<ForumResponse>
 }
