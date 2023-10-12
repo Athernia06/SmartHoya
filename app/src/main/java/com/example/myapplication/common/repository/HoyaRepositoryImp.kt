@@ -3,6 +3,7 @@ package com.example.myapplication.common.repository
 import com.example.myapplication.common.Result
 import com.example.myapplication.data.remote.network.HoyaApi
 import com.example.myapplication.data.remote.repository.HoyaRepository
+import com.example.myapplication.data.remote.response.ForumResponse
 import com.example.myapplication.data.remote.response.HoyaResponse
 import com.example.myapplication.data.remote.response.IslandResponse
 import kotlinx.coroutines.flow.Flow
@@ -27,6 +28,18 @@ class HoyaRepositoryImp @Inject constructor(private val hoyaApi: HoyaApi) : Hoya
             emit(Result.Loading)
             try {
                 val result = hoyaApi.listHoya(token, islandId)
+                emit(Result.Success(result))
+            } catch (e: Exception) {
+                emit(Result.Error(e.message.toString()))
+            }
+        }
+    }
+
+    override fun listForum(token: String): Flow<Result<List<ForumResponse>>> {
+        return flow {
+            emit(Result.Loading)
+            try {
+                val result = hoyaApi.listForum(token)
                 emit(Result.Success(result))
             } catch (e: Exception) {
                 emit(Result.Error(e.message.toString()))

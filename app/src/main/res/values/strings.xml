@@ -48,4 +48,8 @@
     <string name="change_password">Change Password</string>
     <string name="edit_profile">Edit Profile</string>
     <string name="logout">Log Out</string>
+
+
+    <string name="strip">-</string>
+    <string name="nol">0</string>
 </resources>
